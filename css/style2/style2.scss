@@ -1,0 +1,173 @@
+.section2 {
+  width: 100%;
+  display: flex;
+  margin-top: 5em;
+}
+.section2container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 2em;
+  flex-direction: column;
+}
+.ftext {
+  max-width: 700px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  flex-direction: column;
+  h1 {
+    text-align: center;
+    font-weight: 600;
+  }
+  p {
+    font-weight: 300;
+    text-align: center;
+    padding: 1em;
+  }
+}
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.service {
+  display: flex;
+  max-width: 400px;
+  align-items: flex-start;
+  margin: 1em 0.5em;
+  img {
+    margin-right: 1.5em;
+    width: 50px;
+  }
+  h2 {
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 0.5em 0;
+    color: #777;
+  }
+  p {
+    font-weight: 300;
+    color: #999;
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 850px) {
+  .service {
+    width: 100%;
+    max-width: 600px;
+    padding: 0.5em;
+    align-items: center;
+    img {
+      margin-top: 0.5em;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .service {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .ftext {
+    h1 {
+      font-size: 1.6em;
+    }
+    p {
+      font-size: 0.9em;
+    }
+  }
+}
+// section3
+
+.section3 {
+  width: 100%;
+  background: #f5f5f5 url("../../img/dot.png") repeat center center;
+}
+.section3container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 3em 1em;
+  justify-content: space-between;
+  align-items: center;
+}
+.section3left {
+  max-width: 600px;
+  h1 {
+    font-size: 1.6em;
+    font-weight: 500;
+  }
+  p {
+    font-weight: 300;
+    padding: 0.5em 0;
+  }
+}
+.section3right {
+  display: flex;
+  input {
+    outline: none;
+    border-radius: 2px 0 0 2px;
+    padding: 1em;
+    width: 20em;
+    border: 1px solid lightgray;
+    border-right: none;
+  }
+  select {
+    outline: none;
+    padding: 0.5em 1em;
+    width: 6.5em;
+    border: 1px solid lightgray;
+    border-right: none;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  button {
+    cursor: pointer;
+    width: 7em;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0 2px 2px 0;
+    background: #4aaaac;
+  }
+}
+@media screen and (max-width: 1095px) {
+  .section3left {
+    max-width: 1000px;
+    margin: 0.5em 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .section3right {
+    width: 100%;
+    input {
+      width: 10em;
+      padding: 0.5em;
+      font-size: 0.8em;
+    }
+    select {
+      width: 6.2em;
+    }
+    button {
+      width: 6em;
+    }
+  }
+}
+@media screen and (max-width: 350px) {
+  .section3right {
+    display: grid;
+    justify-content: flex-start;
+    grid-template-columns: auto auto;
+    select {
+      border: 1px solid lightgray;
+    }
+    button {
+      margin-top: 1em;
+      width: 6em;
+      height: 2em;
+    }
+  }
+}

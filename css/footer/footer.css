@@ -1,0 +1,141 @@
+.footer {
+  width: 100%;
+  background: #282828;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3em 1em;
+}
+
+.footercontaniner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1300px;
+  width: 100%;
+}
+
+.foto {
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footerelem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 400px;
+  padding-bottom: 2em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footerelem h1 {
+  font-size: 1.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #e0e0e0;
+}
+
+.footerelem ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+  margin-top: 0.5em;
+}
+
+.footerelem ul a {
+  font-size: 0.8em;
+  text-decoration: none;
+  color: lightgray;
+}
+
+.footerelem ul a:hover {
+  text-decoration: underline;
+}
+
+.bg p {
+  font-size: 0.9em;
+  color: #a8a8a8;
+  padding: 1em 0;
+}
+
+.bg h2 {
+  font-weight: 600;
+  padding: 0.5em 0;
+  color: lightgray;
+  font-size: 1em;
+}
+
+.bg h5 {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: lightgray;
+  padding: 0.5em 0 1em 0;
+}
+
+.bg h3 {
+  font-weight: 600;
+  font-size: 0.9em;
+  padding: 0.5em 0;
+  color: lightgray;
+}
+
+.bg h3 span {
+  font-size: 0.8em;
+}
+
+.footeerfooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.5em;
+  margin-top: 1em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footeerfooter p {
+  color: lightgray;
+  font-size: 0.8em;
+  padding-right: 0.5em;
+}
+
+.linksfoot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.linksfoot a {
+  text-decoration: none;
+  font-size: 0.8em;
+  padding: 0.2em;
+  color: #999;
+}
+/*# sourceMappingURL=footer.css.map */

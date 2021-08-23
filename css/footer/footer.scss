@@ -1,0 +1,95 @@
+.footer {
+  width: 100%;
+  background: #282828;
+  display: flex;
+  justify-content: center;
+  padding: 3em 1em;
+}
+.footercontaniner {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  width: 100%;
+}
+.foto {
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footerelem {
+  display: flex;
+  max-width: 400px;
+  padding-bottom: 2em;
+  flex-direction: column;
+  h1 {
+    font-size: 1.1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #e0e0e0;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 0.5em;
+    a {
+      font-size: 0.8em;
+      text-decoration: none;
+      color: lightgray;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.bg {
+  p {
+    font-size: 0.9em;
+    color: rgb(168, 168, 168);
+    padding: 1em 0;
+  }
+  h2 {
+    font-weight: 600;
+    padding: 0.5em 0;
+    color: lightgray;
+    font-size: 1em;
+  }
+  h5 {
+    font-size: 0.8em;
+    font-weight: 400;
+    color: lightgray;
+    padding: 0.5em 0 1em 0;
+  }
+  h3 {
+    font-weight: 600;
+    font-size: 0.9em;
+    padding: 0.5em 0;
+    color: lightgray;
+    span {
+      font-size: 0.8em;
+    }
+  }
+}
+.footeerfooter {
+  display: flex;
+  margin: 0.5em;
+  margin-top: 1em;
+  justify-content: space-between;
+  p {
+    color: lightgray;
+    font-size: 0.8em;
+    padding-right: 0.5em;
+  }
+}
+.linksfoot {
+  display: flex;
+  flex-wrap: wrap;
+  a {
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 0.2em;
+    color: #999;
+  }
+}
