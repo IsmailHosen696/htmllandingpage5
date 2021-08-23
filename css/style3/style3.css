@@ -600,6 +600,9 @@
   .pad {
     text-align: center;
   }
+  .sectiontext {
+    padding-top: 3em;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -620,6 +623,9 @@
         -ms-flex-pack: center;
             justify-content: center;
     margin: 2em auto;
+  }
+  .sectiontext {
+    padding-top: 7em;
   }
   .info5rows {
     margin: 1em 0.5em;
